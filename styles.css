@@ -1,0 +1,145 @@
+* {
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: goldenrod;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 10xp;
+}
+
+.container {
+    background: yellowgreen;
+    padding: 20px 40px;
+    border-radius: 0 4px 10px rgba blue;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color:red;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    font-size: 1rem;
+    color: brown;
+    margin-bottom: 25px;
+    line-hieght: 1.4;
+}
+
+.form-group{
+    margin-bottom: 25px;
+    text-align: left;
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: 700;
+    margin-bottoom: 10px;
+    color: orchid;
+
+}
+
+input[type="date"],
+input[type="text"] {
+    width: 150;
+    padding: 12px 14px;
+    border: 2px solid olive;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    outline:none;
+    transition: border-color 0.4s;
+
+}
+
+input[type="date"]:focus,
+input[type="text"]:focus {
+    border-color:olive;
+
+}
+
+.radio-group {
+    dispaly: flex;
+    gap: 25px;
+    margin-top: 5.5px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+button[type="submit"]{
+    width: 150%;
+    background-color: blueviolet;
+    color: gold;
+    border: none;
+    padding: auto;
+    font-size: 1.5rem;
+    font-weight:800;
+    border-radius:8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover{
+    background-color: greenyellow;
+
+
+}
+
+button[type="submit"]:active {
+    transform: sacle(1);
+}
+
+#result-container {
+    margin-top:  30px;
+    padding:20px;
+    background-color: blueviolet;
+    border-left:7px solid lawngreen;
+    border-radius: 8px;
+    text-align: left;
+
+}
+
+#result-container h2 {
+    font-size: 1.5rem;
+    color:gold;
+    margin-bottm:7px;
+
+}
+
+#result-container p {
+    margin: 0;
+    color:orchid;
+    font-size: 1;
+}
+
+.hidden {
+    dispaly: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Akan Naming Tradition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <main class="container">
+        <h1>The Akan Naming Traidition</h1>
+        <p>Find out your traditional Ghanian Akan name based on the day of the week you were born!</p>
+
+        <form id="akan-form">
+
+        <div class="form-group">
+
+        <label for="birth-date">Date of Birth:</label>
+        <input type="date" id="birth-date" required>
+        </div>  
+
+        <div class="form-group">
+            <label>Gender:</label>
+            <div class="Radio-group">
+                <label>
+                    <input type="radio" name="gender" value="male" required> male
+                    </label>
+
+                    <lable>
+                        <input type="radio" name="gender" value="female"required> female
+                        </lable>
+
+                        </div>
+        </div>
+        
+
+
+        <button type="submit" id="submit-btn">Calculate Akan name</button>
+
+        </form> 
+
+        <div id="result-container" class="hidden">
+
+            <h2>your Akan Name is: <span id=" Akan-name-output></span></h2>
+            <p>you were born on a <span id="day-output"></span>.</p>
+        </div>
+
+    </main>
+
+    <script src="Script.js"></script>    
+</body>
+</html>
